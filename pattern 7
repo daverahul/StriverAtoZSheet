@@ -1,0 +1,15 @@
+n = int(input())
+row = 1
+while(row<=n):
+    space = n - row
+    while(space):
+        print(" ",end=' ')
+        space-=1
+    num = 2*row-1
+    while(num):
+        print("*",end=' ')
+        num-=1
+        
+    print()
+    row+=1
+    
