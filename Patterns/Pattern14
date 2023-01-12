@@ -1,0 +1,11 @@
+n = int(input())
+row =1
+count=1
+while(row<=n):
+    col=1
+    while(col<=row):
+        print(count,end=' ')
+        count+=1
+        col+=1
+    print()
+    row+=1
