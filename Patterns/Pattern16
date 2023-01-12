@@ -1,0 +1,12 @@
+n = int(input())
+row =0
+
+while(row<n):
+    count = 65
+    col=1
+    while(col<=row+1):
+        print(chr(count+row),end=' ')
+        col+=1
+    row+=1
+    print()
+    
