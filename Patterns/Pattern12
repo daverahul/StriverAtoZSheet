@@ -1,0 +1,23 @@
+n = int(input())
+row = 1
+space = 2*(n-1)
+while(row<=n):
+    #first triangle \
+    col =1
+    while(col<=row):
+        print(col,end=' ')
+        col+=1
+    #space 
+    j=1 
+    while(j<=space):
+        print(" ",end=' ')
+        j+=1
+    # third triangle
+    k= row
+    while(k>=1):
+        print(k,end=' ')
+        k-=1
+    
+    space-=2
+    row+=1
+    print()
