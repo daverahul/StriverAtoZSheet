@@ -1,0 +1,11 @@
+def armstrong(n):
+    s=0
+    dup = n 
+    while(n>0):
+        last_digit = n%10
+        s= s+(last_digit*last_digit*last_digit)
+        n=n//10
+    if dup ==s:
+        return True
+    else:
+        return False
