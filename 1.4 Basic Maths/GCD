@@ -1,0 +1,12 @@
+def gcd(a,b):
+    gcd =0
+    while(a>0 & b>0):
+        if(a>b):
+            a%b
+        else:
+            b%a
+    if a==0:
+        print("GCD as",b)
+    else:
+        print("GCD as",a)
+gcd(20,40)
